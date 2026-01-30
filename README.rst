@@ -1,19 +1,22 @@
 Plugin for IvoryOS
 ===================
 
-This is a `plugin template <https://gitlab.com/heingroup/ivoryos-plugin-template>`_
+This is a `plugin template <https://github.com/ivoryos-ai/IvoryOS-plugin-template>`_
 for extending IvoryOS with standalone pages.
 It demonstrates how to structure a plugin using Flask's Blueprint system and integrate with
-`IvoryOS <https://gitlab.com/heingroup/ivoryos>`_.
+`IvoryOS <https://github.com/ivoryos-ai/ivoryos>`_.
 
 
 Quicker Than Quick Start: Vibe Coding your Plugin 🚀
 ------------------------------------------------------
 
-Import ``https://github.com/ivoryzh/ivoryOS-plugin-template`` to your choice of LLM, and prompt what you need for the web app.
+Clone ``https://github.com/ivoryos-ai/IvoryOS-plugin-template`` and prompt with your choice of coding agent.
 
-**Example Prompt:**
-"I want to build a plugin page for ivoryOS to watch a stream from my webcam, can you help write it for me?"
+**Example Prompts:**
+
+Build from scratch: "I want to build a plugin page for ivoryOS to watch a stream from my webcam, can you help write it for me?"
+
+Build with existing html: "Here is my html page @your_actual.html, can you convert it to fit the ivoryOS plugin format?"
 
 
 
