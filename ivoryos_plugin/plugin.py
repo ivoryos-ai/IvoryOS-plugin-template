@@ -11,7 +11,7 @@ import os
 # blueprint name Blueprint('plugin', ...) need to be unique and cannot be names that are already registered
 # ["auth", "control", "database", "design", "main"] are reserved for ivoryos
 plugin = Blueprint("plugin", __name__, template_folder=os.path.join(os.path.dirname(__file__), "templates"))
-
+# plugin.plugin_type = "left_panel"
 
 # # [access socketio] this block is for setting socketio, optional
 # socketio = None
