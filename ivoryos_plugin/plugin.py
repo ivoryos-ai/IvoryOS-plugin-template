@@ -3,9 +3,8 @@ from flask import Flask, render_template, Blueprint, current_app
 import os
 
 # # [access hardware] Comment back this block if need access to control hardware
-# # to get the component, user global_config.deck.hardware_name (e.g. global_config.deck.balance)
-# from ivoryos.utils.global_config import GlobalConfig
-# global_config = GlobalConfig()
+# # to get the component, use global_state.deck.hardware_name (e.g. global_state.deck.balance)
+# from ivoryos import global_state
 
 
 # blueprint name Blueprint('plugin', ...) need to be unique and cannot be names that are already registered
