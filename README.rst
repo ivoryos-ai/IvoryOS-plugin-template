@@ -83,14 +83,13 @@ Note for ``plugin.py``
         return render_template('example.html', base_exists=base_exists)
 
 
-- Import ``deck`` from ``global_config`` if accessing hardware components that are initialized for ``IvoryOS``
+- Import ``global_state`` from ``ivoryos`` if accessing hardware components that are initialized for ``IvoryOS``
 
 .. code-block:: python
 
     # [access hardware] Comment back this block if need access to control hardware
-    # to get the component, user global_config.deck.hardware_name (e.g. global_config.deck.balance)
-    from ivoryos.utils.global_config import GlobalConfig
-    global_config = GlobalConfig()
+    # to get the component, use global_state.deck.hardware_name (e.g. global_state.deck.balance)
+    from ivoryos import global_state
 
 
 
